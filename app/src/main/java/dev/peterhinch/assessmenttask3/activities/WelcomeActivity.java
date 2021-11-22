@@ -1,14 +1,16 @@
-package dev.peterhinch.assessmenttask3;
+package dev.peterhinch.assessmenttask3.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class HighScoreActivity extends AppCompatActivity {
+import dev.peterhinch.assessmenttask3.R;
+
+public class WelcomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_high_score);
+        setContentView(R.layout.activity_welcome);
     }
 }
