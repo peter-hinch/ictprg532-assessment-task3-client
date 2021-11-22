@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssessmentTask3">
         <activity
-            android:name=".HighScoreActivity"
+            android:name=".activities.HighScoreActivity"
             android:exported="true" />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".activities.SettingsActivity"
             android:exported="true" />
         <activity
-            android:name=".GameActivity"
+            android:name=".activities.GameActivity"
             android:exported="true" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".activities.WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
