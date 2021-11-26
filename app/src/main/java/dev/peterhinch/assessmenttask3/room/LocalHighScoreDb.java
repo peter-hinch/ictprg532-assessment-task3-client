@@ -42,7 +42,7 @@ public abstract class LocalHighScoreDb extends RoomDatabase {
   }
 
   // Add a new HighScore to the Room database.
-  public static void highScoreCreate(final Context context, HighScore highScore) {
+  public static void highScoresCreate(final Context context, HighScore highScore) {
     try {
       LocalHighScoreDb db = getInstance(context);
       db.highScoreDao().insertHighScores(highScore);
@@ -52,7 +52,7 @@ public abstract class LocalHighScoreDb extends RoomDatabase {
   }
 
   // View all HighScores in the Room database.
-  public static List<HighScore> highScoreReadAll(Context context) {
+  public static List<HighScore> highScoresReadAll(Context context) {
     List<HighScore> highScores = null;
 
     try {
