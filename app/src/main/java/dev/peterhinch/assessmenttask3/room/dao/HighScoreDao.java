@@ -13,7 +13,7 @@ import dev.peterhinch.assessmenttask3.room.entities.HighScore;
 public interface HighScoreDao {
   // Create
   @Insert(onConflict = OnConflictStrategy.REPLACE)
-  void insertHighScore(HighScore... highScores);
+  void insertHighScores(HighScore... highScores);
 
   // Read all
   @Query("SELECT * FROM highscore")
